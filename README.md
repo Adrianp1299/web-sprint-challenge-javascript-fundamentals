@@ -26,13 +26,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+.map lets you take whatever you want from an array, affect it (if you want) and then put it in a new array.
+.reduce takes values from the array and creates one new value.
+.filter lets you transfer values with certian requirements and put only those into a new array.
+
 2. Explain the difference between a callback and a higher order function.
+
+higher order function works within itself and a callback takes functions from the out side.
 
 3. Explain what a closure is.
 
+closure is a function looking upstream to find a value it needs to complete its task
+
 4. Describe the four principles of the 'this' keyword.
 
+    1. Window/Global Binding - it will be the window/console Object
+    2. Implicit Binding when its got a dot itll be that object
+    3. New Binding specific instance of the object that is created by a constructor function
+    4. Explicit binding is overriding constructor objects by calling them explicitly with ne functions, .call and .apply 
+
 5. Why do we need super() in an extended class?
+
+it creates all the objects you had in your previous class
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
